@@ -33,6 +33,8 @@ void simple_shell::parse_command(char* cmd, char** cmdTokens) {
 			}
 		}
 	}
+
+	cmdTokens[i++] = NULL;
   // TODO: tokenize the command string into arguments
 }
 
