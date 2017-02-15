@@ -46,7 +46,8 @@ void simple_shell::exec_command(char **argv)
   }
   else {
   	 printf("Exec %s", argv[0]);
-  	 execvp(argv[0], argv);
+
+  	 execvp(argv[0], argv[1] ? argv : NULL);
   	//child
   }
 }
