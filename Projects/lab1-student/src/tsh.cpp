@@ -1,6 +1,8 @@
 #include "tsh.h"
 #include <sstream>
 #include "string.h"
+#include <sys/types.h>
+#include <sys/wait.h>
 
 using namespace std;
 
@@ -36,8 +38,16 @@ void simple_shell::parse_command(char* cmd, char** cmdTokens) {
 
 void simple_shell::exec_command(char **argv)
 {
-  // TODO: fork a child process to execute the command.
-  // parent process should wait for the child process to complete and reap it
+  if(int pid = fork())
+  {
+  	int status;
+  	waitpid(pid, &status, 0);
+  	//parent
+  }
+  else {
+  	 execvp(argv[0], argv);
+  	//child
+  }
 }
 
 bool simple_shell::isQuit(char *cmd){
