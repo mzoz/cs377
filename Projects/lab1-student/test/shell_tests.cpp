@@ -3,6 +3,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <cstring>
 
 using namespace std;
 
@@ -19,6 +20,15 @@ class ShellTest : public ::testing::Test
 TEST(ShellTest, Test1) {
     simple_shell s;
     EXPECT_TRUE(s.isQuit((char *)"quit"));
+}
+
+//Testing isQuit for "quit"
+TEST(ShellTest, Test2) {
+    simple_shell s;
+    char *cmdTokens[25];
+    s.parse_command((char *)"testing first second third", cmdTokens);
+    printf("TOKENS: %s %s %s %s\n", cmdTokens[0], cmdTokens[1], cmdTokens[2], cmdTokens[3]);
+    EXPECT_TRUE(strcmp((char *)"third", cmdTokens[3]) == 0);
 }
 
 
