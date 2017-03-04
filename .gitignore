@@ -30,3 +30,4 @@
 
 # User Added
 .DS_Store
+.clang_complete
