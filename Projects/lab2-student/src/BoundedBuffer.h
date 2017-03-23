@@ -1,6 +1,8 @@
 #ifndef _BOUNDEDBUFFER_H
 #define _BOUNDEDBUFFER_H
 
+#define DEBUG 0
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -14,11 +16,17 @@ class BoundedBuffer {
 		void append(int data);
 		int remove();
 		bool isEmpty();
+
+		#if DEBUG
+		void print_buffer();
+		#endif
+
 	private:
 		int *buffer;
 		int buffer_size;
 		int buffer_cnt;
 		int buffer_last;
+
 
 		pthread_mutex_t buffer_lock; //lock
 		pthread_cond_t buffer_full; //Condition indicating buffer is full

@@ -1,0 +1,20 @@
+Producer #4, time = 0.01 sec, producing data item #4, item value=8
+Producer #2, time = 0.01 sec, producing data item #2, item value=10
+Producer #1, time = 0.01 sec, producing data item #1, item value=10
+Producer #0, time = 0.01 sec, producing data item #0, item value=10
+Producer #3, time = 0.01 sec, producing data item #3, item value=10
+Producer #4, time = 0.01 sec, producing data item #5, item value=4
+Producer #2, time = 0.01 sec, producing data item #6, item value=9
+Producer #1, time = 0.01 sec, producing data item #7, item value=1
+Producer #0, time = 0.01 sec, producing data item #8, item value=3
+Producer #3, time = 0.01 sec, producing data item #9, item value=3
+Consumer #0, time = 0.11 sec, consuming data item with value=8
+Consumer #0, time = 0.21 sec, consuming data item with value=10
+Consumer #0, time = 0.31 sec, consuming data item with value=10
+Consumer #0, time = 0.42 sec, consuming data item with value=10
+Consumer #0, time = 0.52 sec, consuming data item with value=10
+Consumer #0, time = 0.63 sec, consuming data item with value=4
+Consumer #0, time = 0.73 sec, consuming data item with value=9
+Consumer #0, time = 0.83 sec, consuming data item with value=1
+Consumer #0, time = 0.94 sec, consuming data item with value=3
+Consumer #0, time = 1.04 sec, consuming data item with value=3

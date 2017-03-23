@@ -1,0 +1,40 @@
+Producer #0, time = current time, producing data item #0, item value=8
+Producer #1, time = current time, producing data item #1, item value=8
+Producer #2, time = current time, producing data item #2, item value=10
+Consumer #0, time = current time, consuming data item with value=8
+Consumer #3, time = current time, consuming data item with value=8
+Producer #3, time = current time, producing data item #3, item value=4
+Producer #4, time = current time, producing data item #4, item value=9
+Consumer #2, time = current time, consuming data item with value=10
+Consumer #4, time = current time, consuming data item with value=4
+Consumer #1, time = current time, consuming data item with value=9
+Producer #0, time = current time, producing data item #5, item value=1
+Producer #1, time = current time, producing data item #6, item value=3
+Consumer #0, time = current time, consuming data item with value=1
+Producer #4, time = current time, producing data item #9, item value=5
+Producer #3, time = current time, producing data item #8, item value=9
+Producer #2, time = current time, producing data item #7, item value=9
+Consumer #4, time = current time, consuming data item with value=3
+Consumer #2, time = current time, consuming data item with value=5
+Consumer #1, time = current time, consuming data item with value=9
+Consumer #3, time = current time, consuming data item with value=9
+Producer #0, time = current time, producing data item #10, item value=4
+Consumer #0, time = current time, consuming data item with value=4
+Producer #1, time = current time, producing data item #11, item value=10
+Consumer #1, time = current time, consuming data item with value=10
+Producer #4, time = current time, producing data item #12, item value=1
+Producer #3, time = current time, producing data item #13, item value=6
+Producer #2, time = current time, producing data item #14, item value=3
+Consumer #2, time = current time, consuming data item with value=1
+Consumer #4, time = current time, consuming data item with value=6
+Consumer #3, time = current time, consuming data item with value=3
+Producer #0, time = current time, producing data item #15, item value=3
+Producer #1, time = current time, producing data item #16, item value=8
+Producer #3, time = current time, producing data item #18, item value=4
+Producer #4, time = current time, producing data item #17, item value=4
+Producer #2, time = current time, producing data item #19, item value=8
+Consumer #3, time = current time, consuming data item with value=3
+Consumer #0, time = current time, consuming data item with value=8
+Consumer #1, time = current time, consuming data item with value=4
+Consumer #2, time = current time, consuming data item with value=4
+Consumer #4, time = current time, consuming data item with value=8
